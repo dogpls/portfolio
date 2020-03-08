@@ -1,0 +1,68 @@
+h1 {
+    font-size: 94px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  
+  h2 {
+    font-size: 27px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  h3 {
+    font-size: 31px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+  }
+  
+  p {
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Indie Flower", cursive;
+  }
+  
+  .title {
+    line-height: 80%;
+  }
+  
+  ul {
+    font-size: 16px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .responsiveheaderimg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .youtubecentered {
+    padding: 5px;
+  }
+  
+  .centerfooterimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .img-div {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  
