@@ -1,2 +1,2 @@
 # gomezants.github.io
-Just me web designing 
+Still practicing my web design.
