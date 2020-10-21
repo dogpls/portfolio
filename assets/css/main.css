@@ -108,7 +108,7 @@ input, select, textarea {
 		}
 
 	.intro {
-		background-image: url("https://i.imgur.com/VI1fuYG.jpg");
+		background-image: url("/images/duckedzoomed.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
