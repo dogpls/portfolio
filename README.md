@@ -1,2 +1,2 @@
-# gomezants.github.io
-Practicing my web design.
+# gomez.github.io
+Me Practicing my web design.
