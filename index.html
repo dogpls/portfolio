@@ -24,11 +24,10 @@
   </noscript>
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-  <link rel="shortcut icon" href="/images/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Anthony Gomez | Online Portfolio">
@@ -89,7 +88,7 @@
     @media (prefers-color-scheme:dark) {
       body {
         background-color: #222;
-         color: #39454b
+        color: #39454b
       }
     }
   </style>
@@ -165,38 +164,48 @@
   </section>
 
   <!-- Work/Projects Section -->
-  <!-- Projects
-- Featured work: Showcase your best projects with descriptions and links
-- Tech stack: Mention the tools and languages used
-- Interactive elements: Hover effects, animations, or expandable details
--->
-
   <section id="work" class="main style3 primary">
     <div class="content">
       <header>
         <h2>My Projects</h2>
       </header>
+      <p>Explore my projects showcasing front-end development and system administration.<br> Click <b>View Project</b>
+        for
+        GitHub
+        source
+        code.</p>
 
+      <!-- Projects
+- Featured work: Showcase your best projects with descriptions and links
+- Tech stack: Mention the tools and languages used
+- Interactive elements: Hover effects, animations, or expandable details
+-->
       <div class="gallery">
+
         <article class="from-left">
           <img src="images/LawSite.jpg" width="300" height="200" alt="Zand law website project">
           <h3>Zand Law Project</h3>
           <p>Responsive website for a lawyer, html/css, and js.</p>
-          <a href="https://github.com/dogpls/NZ" class="btn">View Project</a>
+          <a href="https://github.com/dogpls/NZ" class="btn"><b>View Project</b></a>
         </article>
 
-        <article class="project">
+        <article class="from-right">
           <img src="images/MyPortfoilo.jpg" width="300" height="200" alt="My portfolio website project">
           <h3>My Portfoilo Project</h3>
           <p>Responsive portfoilo, showcasing html/css, and js.</p>
-          <a href="https://github.com/dogpls/portfolio" class="btn">View Project</a>
+          <a href="https://github.com/dogpls/portfolio" class="btn"><b>View Project</b></a>
         </article>
 
         <!-- Add more projects as needed -->
-        <footer>
-          <a href="#one" class="button style2 down anchored">More</a>
-        </footer>
+
       </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#one" class="button style2 down anchored">More</a>
+  </footer>
+  </div>
   </section>
 
 
