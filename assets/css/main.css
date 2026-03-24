@@ -1624,6 +1624,22 @@ body.is-touch .poptrox-popup .closer {
 
 }
 
+/* Projects */
+.project-card {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding: 1rem;
+	border-radius: 8px;
+	transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+
 /* Header */
 
 #header {
