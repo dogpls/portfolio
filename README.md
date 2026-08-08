@@ -16,7 +16,7 @@ This portfolio is a single-page application built to present my work.
 This is a personal portfolio project and is not open for contributions. However, feedback and suggestions are welcome via issues.
 
 ### License
-MIT
+Creative Commons
 
 ### Contact
 
