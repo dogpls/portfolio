@@ -1842,7 +1842,7 @@ body.is-touch .main {
 	position: relative;
 	margin: 0;
 	line-height: 1em;
-	padding: 1.5em;
+	padding: 1.2em;
 	background: #39454b;
 	color: #ff7300;
 	overflow: hidden;
@@ -1883,7 +1883,7 @@ body.is-touch .main {
 		justify-content: center;
 		line-height: 1.5em;
 		text-align: center;
-		padding: 2em 1em 2em 1em;
+		padding: 1em 1em 0.1em 1em;
 	}
 
 	#footer>* {
