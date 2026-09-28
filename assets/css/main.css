@@ -679,14 +679,14 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 .button:hover,
 button:hover {
-	background-color: #c7ac7d;
+	background-color: #e5e6e7;
 }
 
 input[type="button"]:active,
 input[type="reset"]:active,
 .button:active,
 button:active {
-	background-color: #88bc82;
+	background-color: #bc9782;
 }
 
 input[type="button"].style2,
