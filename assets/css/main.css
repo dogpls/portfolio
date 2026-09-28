@@ -1816,7 +1816,7 @@ body.is-touch .main {
 
 .accordion-content {
 	display: none;
-	font-weight: bold;
+	font-weight: 600;
 	padding: 10px;
 	background: #ddd;
 }
