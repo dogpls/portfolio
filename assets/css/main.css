@@ -548,6 +548,7 @@ h2 {
 	padding: 0.25em 100 0.25em 0;
 	line-height: 1.25em;
 	letter-spacing: -0.05em;
+	text-align: center;
 }
 
 @media screen and (max-width: 736px) {
