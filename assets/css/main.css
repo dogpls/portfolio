@@ -1811,6 +1811,7 @@ body.is-touch .main {
 	cursor: pointer;
 	text-align: center;
 	font-weight: 800;
+	font-size: 2em;
 }
 
 .accordion-content {
