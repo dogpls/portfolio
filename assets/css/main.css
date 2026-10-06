@@ -1808,8 +1808,8 @@ body.is-touch .main {
 .accordion-header {
 	width: 100%;
 	padding: 0px 10px 10px 10px;
-	background: #333;
-	color: white;
+	background: #212121;
+	color: #ff8d5c;
 	border: none;
 	cursor: pointer;
 	text-align: center;
