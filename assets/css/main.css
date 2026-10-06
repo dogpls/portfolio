@@ -1860,6 +1860,7 @@ body.is-touch .main {
 
 #footer a {
 	color: inherit;
+	text-decoration: none;
 }
 
 #footer a:hover {
