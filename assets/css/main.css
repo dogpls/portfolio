@@ -1842,6 +1842,7 @@ body.is-touch .main {
 	color: #FF841F;
 	overflow: hidden;
 	font-weight: bold;
+	height: auto;
 }
 
 #footer>* {
