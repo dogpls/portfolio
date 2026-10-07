@@ -1834,13 +1834,13 @@ body.is-touch .main {
 	-ms-justify-content: space-between;
 	justify-content: space-between;
 	position: relative;
+	flex-direction: column;
 	margin: 0;
 	line-height: 1em;
 	padding: 1.2em;
 	background: #0e0f10;
 	color: #FF841F;
 	overflow: hidden;
-	justify-content: center;
 	font-weight: bold;
 }
 
