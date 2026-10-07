@@ -1762,7 +1762,7 @@ body.is-touch .main {
 	width: 100%;
 	padding: 0px 10px 10px 10px;
 	background: #212121;
-	color: #ff8d5c;
+	color: #FF6929;
 	border: none;
 	cursor: pointer;
 	text-align: center;
@@ -1803,7 +1803,7 @@ body.is-touch .main {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: #FF6929;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: inline-block;
