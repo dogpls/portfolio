@@ -1843,6 +1843,7 @@ body.is-touch .main {
 	overflow: hidden;
 	font-weight: bold;
 	height: auto;
+	min-height: 20px;
 }
 
 #footer>* {
