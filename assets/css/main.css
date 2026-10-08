@@ -1833,7 +1833,7 @@ body.is-touch .main {
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	position: absolute;
+	position: relative;
 	flex-direction: column;
 	margin: 0;
 	line-height: 1em;
@@ -1844,8 +1844,6 @@ body.is-touch .main {
 	font-weight: bold;
 	height: auto;
 	min-height: 20px;
-	margin-bottom: 0;
-	padding-bottom: 0;
 }
 
 #footer>* {
