@@ -1844,6 +1844,8 @@ body.is-touch .main {
 	font-weight: bold;
 	height: auto;
 	min-height: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 #footer>* {
