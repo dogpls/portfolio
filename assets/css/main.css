@@ -1833,7 +1833,7 @@ body.is-touch .main {
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	position: relative;
+	position: absolute;
 	flex-direction: column;
 	margin: 0;
 	line-height: 1em;
