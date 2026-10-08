@@ -1772,9 +1772,12 @@ body.is-touch .main {
 
 .accordion-content {
 	display: none;
-	font-weight: 550;
+	font-weight: 600;
 	padding: 10px;
 	background: #ddd;
+	border: none;
+	margin: 6px;
+	border-radius: 16px;
 }
 
 .accordion-header.active {
