@@ -590,9 +590,7 @@ ol {
 	background: #ffffff;
 	color: #39454b;
 	padding: 2em;
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, orangered, blue) 1;
+		box-shadow: 0px 4px 16px 3px rgba(255, 106, 0, 1.00), 0px 4px 16px 0px rgba(0, 97, 254, 1.00);
 }
 
 .box> :last-child {
