@@ -1636,7 +1636,7 @@ body.is-touch .main {
 	--contact-card: #141820;
 	--contact-border: #252b35;
 	--contact-text: #f1f5f9;
-	--contact-muted: #9ca3af;
+	--contact-muted: #ff7300;
 	--contact-accent: #ff7300;
 	background: var(--contact-bg);
 	color: var(--contact-text);
