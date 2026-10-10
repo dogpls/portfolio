@@ -81,7 +81,7 @@ body.is-preload *:after {
 }
 
 
-<!-- Keyframes for background overlay hide animation -->
+/* Keyframes for background overlay hide animation */
 @-moz-keyframes overlay-hide {
 	0% {
 		opacity: 1;
