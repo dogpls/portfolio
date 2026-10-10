@@ -22,14 +22,13 @@
   </noscript>
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Anthony Gomez | Full-Stack Developer & DevOps Engineer">
-  <meta property="og:description" content="A Full-Stack Developer, and DevOps Engineer.">
+  <meta property="og:description" content="A full-stack developer, & devops engineer.">
   <meta property="og:image" content="/images/brand-banner.jpg">
   <meta property="og:url" content="https://www.anthonygomez.net">
   <meta property="og:type" content="website">
@@ -37,7 +36,7 @@
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Anthony Gomez | Full-Stack Developer & DevOps Engineer">
-  <meta name="twitter:description" content="Experienced Full-Stack Developer, and DevOps Engineer.">
+  <meta name="twitter:description" content="Experienced full-stack developer, and devops engineer.">
   <meta name="twitter:image" content="/images/brand-banner.jpg">
 
   <link rel="canonical" href="https://www.anthonygomez.net">
@@ -92,28 +91,30 @@
     <h1>ANTHONY GOMEZ</h1>
     <nav aria-label="Primary Navigation">
       <ul>
-        <li><a href="#intro">Intro</a></li>
-        <li><a href="#one">Tech Stack</a></li>
+        <li><a href="#main-title">Intro</a></li>
+        <li><a href="#techstack">Tech Stack</a></li>
         <li><a href="#work">Projects</a></li>
-        <li><a href="#two">HomeLab</a></li>
-        <li><a href="#footer">Contact</a></li>
+        <li><a href="#homelab">HomeLab</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Intro -->
-  <section id="intro" class="main style1 dark fullscreen">
+  <!-- Main Title -->
+  <section id="main-title" class="main style1 dark fullscreen">
     <div class="content">
       <header>
         <h2>Hey, I'm Anthony</h2>
       </header>
-      <p style="font-size: 24px; font-weight: bold;">A Full-Stack Developer and DevOps Engineer</p>
+      <h3 class="bio-header">Full-stack Developer · DevOps Engineer · Systems Administrator</h3>
     </div>
       <a class="button style2 down anchored">Next</a>
   </section>
 
+
+
   <!-- Tech Stack -->
-  <section id="one" class="main style2 right dark fullscreen">
+  <section id="techstack" class="main style2 right dark fullscreen">
     <div class="content box style2">
       <header>
         <h2>My Tech Stack</h2>
@@ -127,6 +128,7 @@
               <li>HTML5 · CSS3 · JavaScript</li>
               <li>React.js · TypeScript</li>
               <li>UI/UX Design Principles</li>
+
             </ul>
           </div>
         </div>
@@ -136,7 +138,7 @@
           <div class="accordion-content">
             <ul>
               <li>Python · Node.js · Express.js</li>
-              <li>REST APIs</li>
+              <li>Package Manager · REST APIs</li>
               <li>Databases · SQL · PostgreSQL</li>
             </ul>
           </div>
@@ -144,30 +146,32 @@
 
         <div class="accordion-item">
           <button class="accordion-header">DevOps & Deployment</button>
-  <div class="accordion-content">
-    <ul>
-      <li>Project Management</li>
-      <li>CI/CD · Automation</li>
-      <li>Cloud Infrastructure</li>
-      <li>Git · Github Actions</li>
-      <li>Monitoring · Logging</li>
+          <div class="accordion-content">
+            <ul>
+              <li>Project Management</li>
+              <li>CI/CD · Automation</li>
+              <li>Cloud Infrastructure</li>
+              <li>Git · Github Actions</li>
+              <li>Monitoring · Logging</li>
     </ul>
   </div>
 </div>
-        
-        <div class="accordion-item">
+
+<div class="accordion-item">
           <button class="accordion-header">Systems Administration</button>
           <div class="accordion-content">
             <ul>
-              <li>Linux · Windows Server</li>
-              <li>Networking · Firewalls</li>
-              <li>Virtualization · Containers</li>
+              <li>Linux & Windows Server</li>
+              <li>Networking & Firewalls</li>
+              <li>Virtualization & Containers</li>
               <li>System Troubleshooting</li>
             </ul>
           </div>
         </div>
     </div>
+
   </section>
+
 
   <!-- Projects -->
   <section id="work" class="main style3 primary">
@@ -204,7 +208,7 @@
   </section>
 
   <!-- Homelab -->
-  <section id="two" class="main style2 left dark fullscreen">
+  <section id="homelabBG" class="main style2 left dark fullscreen">
     <div class="content box style2">
       <section id="homelab">
         <header>
@@ -236,15 +240,86 @@
   </section>
   </div>
 
-  <!-- Footer -->
-  <footer id="footer">
-    <p>✉️
-      <a>anthony@anthonygomez.net</a> |
-      <a href="https://github.com/dogpls" target="_blank">
-        <i class="fab fa-github"></i> GitHub
+
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+
+    <div class="contact-heading">
+      <span class="section-label">
+        <span class="status-dot"></span>
+        CONTACT
+      </span>
+
+      <p class="contact-description">
+        Have a project or idea? Or just want to talk tech? My inbox is open.
+      </p>
+    </div>
+
+    <div class="contact-links">
+
+      <a
+        class="contact-card"
+        href="mailto:anthony@anthonygomez.net"
+        aria-label="Send me an email"
+      >
+        <span class="contact-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="5" width="18" height="14" rx="2"/>
+            <path d="m3 7 9 6 9-6"/>
+          </svg>
+        </span>
+
+        <span class="contact-info">
+          <span class="contact-title">Email</span>
+          <span class="contact-subtitle">
+            anthony@anthonygomez.net
+          </span>
+        </span>
+        <span class="contact-arrow" aria-hidden="true">↗</span>
       </a>
-    </p>
-  </footer>
+
+      <a
+        class="contact-card"
+        href="https://github.com/dogpls"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit my GitHub profile"
+      >
+        <span class="contact-icon github-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9
+            c0-1.1.1-1.6-.5-2.2
+            3.3-.4 6.8-1.6 6.8-7.2
+            0-1.6-.6-2.9-1.6-3.9
+            .2-.4.7-1.9-.2-3.8
+            0 0-1.3-.4-4.2 1.6
+            a14.5 14.5 0 0 0-7.6 0
+            C4.8.6 3.5 1 3.5 1
+            2.6 2.9 3.1 4.4 3.3 4.8
+            2.3 5.8 1.7 7.1 1.7 8.7
+            c0 5.6 3.5 6.8 6.8 7.2
+            -.5.5-.6 1-.6 2.1V22"/>
+          </svg>
+        </span>
+        <span class="contact-info">
+          <span class="contact-title">GitHub</span>
+          <span class="contact-subtitle">@dogpls</span>
+        </span>
+        <span class="contact-arrow" aria-hidden="true">↗</span>
+      </a>
+      </a>
+    </div>
+
+    <footer class="contact-footer">
+      <span>&copy; 2026 · ANTHONY GOMEZ</span>
+      <span class="availability">
+        <span class="status-dot"></span>
+        Open to opportunities
+      </span>
+    </footer>
+
+  </div>
+</section>
 
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
