@@ -580,7 +580,7 @@ h3 {
 	line-height: 1.25em;
 	letter-spacing: -0.05em;
 	text-align: center;
-	color: #FFDDC2;
+	color: #fbc193;
 }
 
 .about {
@@ -631,7 +631,7 @@ ol {
 	background: #ffffff;
 	color: #39454b;
 	padding: 2em;
-	box-shadow: 0px 4px 16px -1px rgba(255, 115, 0, 0.27), 0px 4px 16px -1px rgba(57, 69, 75, 0.50);
+	box-shadow: 0px 4px 16px -1px rgba(255, 115, 0, 0.30);
 }
 
 .box> :last-child {
