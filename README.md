@@ -17,9 +17,3 @@ This is a personal portfolio project and is not open for contributions. However,
 
 ### License
 Creative Commons
-
-### Contact
-
-    Email: anthony@anthonygomez.net
-    GitHub: https://github.com/dogpls
-    Portfolio: anthonygomez.net
