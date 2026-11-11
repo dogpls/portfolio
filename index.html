@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Anthony Gomez's portfolio showcasing full-stack development, devops, system administration, and projects.">
-  <meta name="keywords" content="Full-stack Development, DevOps, System Administration, IT, Homelab, Web Development, Portfolio">
+    content="portfolio showcasing full-stack development, devops, system administration, and projects.">
+  <meta name="keywords"
+    content="Full-stack Development, DevOps, System Administration, IT, Homelab, Web Development, Portfolio">
   <meta name="author" content="Anthony Gomez">
   <meta name="AG" content="AppTitle">
 
@@ -24,7 +26,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Anthony Gomez | Full-Stack Developer & DevOps Engineer">
@@ -63,6 +65,11 @@
       min-height: 100vh
     }
 
+    svg {
+      width: 42px;
+      height: 42px;
+    }
+
     .main-content {
       margin: 8rem auto;
       max-width: 60rem;
@@ -82,212 +89,314 @@
       padding-left: 34px
     }
   </style>
+
 </head>
 
 <body>
+  <div class="top-line"></div>
 
-  <!-- Navigation -->
-  <header id="header">
-    <h1>ANTHONY GOMEZ</h1>
-    <nav aria-label="Primary Navigation">
-      <ul>
-        <li><a href="#intro">Intro</a></li>
-        <li><a href="#techstack">Tech Stack</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#homelab">HomeLab</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Main Title -->
+  <!-- NAV HOVER SOCIAL BAR -->
+
+  <nav class="social-bar" aria-label="Social links">
+    <a href="https://github.com/dogpls" target="_blank" aria-label="GitHub" title="GitHub">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M12 .8a11.3 11.3 0 0 0-3.57 22.02c.57.1.77-.25.77-.55v-2.1c-3.14.68-3.8-1.33-3.8-1.33-.52-1.3-1.26-1.65-1.26-1.65-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.66 1.24 3.31.95.1-.73.4-1.24.72-1.53-2.51-.29-5.15-1.26-5.15-5.6 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.11 1.16a10.8 10.8 0 0 1 5.66 0c2.16-1.47 3.11-1.16 3.11-1.16.62 1.57.23 2.73.11 3.02.73.8 1.17 1.81 1.17 3.05 0 4.35-2.65 5.3-5.17 5.59.41.35.77 1.04.77 2.1v3.09c0 .3.2.65.78.54A11.3 11.3 0 0 0 12 .8Z" />
+      </svg>
+    </a>
+    <a href="mailto:anthony@anthonygomez.net" target="_blank" aria-label="Email" title="Email">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Zm0 10H4V9.4l8 5 8-5V18Z" />
+      </svg>
+    </a>
+  </nav>
+
+
+
+
+  <!-- INTRO -->
   <section id="intro" class="main style1 dark fullscreen">
     <div class="content">
       <header>
         <h2>Hi, I'm Anthony</h2>
       </header>
-      <h3 class="bio-header">Full-stack Developer · DevOps Engineer · Systems Administrator</h3>
+      <h3 class="intro-second-header">Full-stack Developer · DevOps Engineer · Systems Administrator</h3>
     </div>
-      <a class="button style2 down anchored">Next</a>
+    <a class="button style2 down anchored"></a>
   </section>
 
-
-
-  <!-- Tech Stack -->
-  <section id="techstack" class="main style2 center dark fullscreen">
+  <!-- ABOUT -->
+  <section id="about" class="main style2 left dark fullscreen">
     <div class="content box style2">
       <header>
-        <h2>Tech Stack</h2>
+        <h2>About Me</h2>
       </header>
-      <div class="accordion skills">
-        <div class="accordion-item">
-          <button class="accordion-header">Front-End Development</button>
-          <div class="accordion-content">
-            <ul>
-              <li>Responsive Web Design</li>
-              <li>HTML5 · CSS3 · JavaScript</li>
-              <li>React.js · TypeScript</li>
-              <li>UI/UX Design Principles</li>
-
-            </ul>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <button class="accordion-header">Back-End Development</button>
-          <div class="accordion-content">
-            <ul>
-              <li>Python · Node.js · Express.js</li>
-              <li>Package Manager · REST APIs</li>
-              <li>Databases · SQL · PostgreSQL</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="accordion-item">
-          <button class="accordion-header">DevOps & Deployment</button>
-          <div class="accordion-content">
-            <ul>
-              <li>Project Management</li>
-              <li>CI/CD · Automation</li>
-              <li>Cloud Infrastructure</li>
-              <li>Git · Github Actions</li>
-              <li>Monitoring · Logging</li>
-    </ul>
-  </div>
-</div>
-
-<div class="accordion-item">
-          <button class="accordion-header">Systems Administration</button>
-          <div class="accordion-content">
-            <ul>
-              <li>Linux & Windows Server</li>
-              <li>Networking & Firewalls</li>
-              <li>Virtualization & Containers</li>
-              <li>System Troubleshooting</li>
-            </ul>
-          </div>
-        </div>
-    </div>
-
-  </section>
-
-
-  <!-- Projects -->
-  <section id="projects" class="main style3 primary">
-    <div class="content">
-      <header>
-        <h2>Projects</h2>
-      </header>
-      <p>Explore my projects showcasing front-end development.</p>
-
-<div class="gallery">
-
-        <article class="from-left">
-          <a href="https://github.com/dogpls/NZ" target="_blank" rel="noreferrer" class="project-card">
-            <img src="images/LawSite.jpg" width="300" height="200" alt="Zand law website project">
-            <h3>Sole Practitioner Project</h3>
-            <p>Responsive website for a lawyer: html/css+js</p>
-            <span class="btn"><b>View Project</b></span>
-          </a>
-        </article>
-
-        <article class="from-right">
-          <a href="https://github.com/dogpls/portfolio" target="_blank" rel="noreferrer" class="project-card">
-            <img src="images/MyPortfoilo.jpg" width="300" height="200" alt="My portfolio website project">
-
-            <h3>My Portfolio Project</h3>
-            <p>Responsive portfolio: html/css+js</p>
-            <span class="btn"><b>View Project</b></span>
-          </a>
-        </article>
-      </div>
+      <p>15 years of professional experience building web applications, scalable cloud solutions, and enterprise
+        IT
+        infrastructure.</p>
+      <p>
+        I excel at tackling challenging problems and continuously learning emerging technologies.</p>
     </div>
   </section>
-  </div>
-  </section>
 
-  <!-- Homelab -->
-  <section id="homelabBG" class="main style2 center dark fullscreen">
-    <div class="content box style2">
-      <section id="homelab">
+
+  <!-- TECH STACK THREE-BOXES -->
+  <div id="techstack">
+    <section class="expertise" aria-labelledby="expertise-title">
+      <div class="content box style2">
         <header>
-          <h2>Homelab Infrastructure</h2>
+          <h2 class="font-techstack">Tech Stack</h2>
         </header>
+        <div class="expertise-grid">
+          <article class="expertise-card">
+            <h2>Full-Stack<br>Development</h2>
+            <div class="card-divider"></div>
+            <p>
+              Building fast, scalable MERN + Typescript apps with clean code
+              and modern tech.
+            </p>
+          </article>
+          <article class="expertise-card">
+            <h2>UI/UX<br>&amp; Animations</h2>
+            <div class="card-divider"></div>
+            <p>
+              Crafting smooth, interactive experiences with React.
+            </p>
+          </article>
+          <article class="expertise-card">
+            <h2>DevOps<br>&amp; Sysadmin</h2>
+            <div class="card-divider"></div>
+            <p>
+              Automating and maintaining reliable, scalable infrastructure.
+            </p>
+          </article>
+        </div>
 
-        <p>My homelab is designed for efficiency, security, and media management. It features a robust setup that
-          ensures seamless operation and data integrity.</p>
-        <div class="homelab-grid">
-          <div class="homelab-item">
-            <h3>Proxmox Server</h3>
-            <p>Virtualization powerhouse running multiple VMs and containers for various services.</p>
-          </div>
-          <div class="homelab-item">
-            <h3>WireGuard Firewall</h3>
-            <p>Secure VPN tunneling for remote access and network protection.</p>
-          </div>
-          <div class="homelab-item">
-            <h3>8-Channel Security System</h3>
-            <p>Surveillance setup ensuring real-time monitoring and security.</p>
-          </div>
-          <div class="homelab-item">
-            <h3>Offline Backup</h3>
-            <p>Redundant storage solution for data integrity and disaster recovery.</p>
+
+        <!-- TECHNOLOGY SKILLS ICONS -->
+
+        <div class="accordion skills">
+          <div class="accordion-item">
+            <div class="tech-skills">
+
+              <p class="btn-terminal-green">Technologies I Work With</p>
+              <button class="accordion-header btn-blink-cursor">View Tech Stack</button>
+
+
+              <div class="accordion-content">
+                <div class="tech-category">
+                  <div class="tech-grid">
+                    <div class="tech-item">
+                      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>Python</title>
+                        <path
+                          d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" />
+                      </svg>
+                      <span>Python</span>
+                    </div>
+                    <div class="tech-item">
+                      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>JavaScript</title>
+                        <path
+                          d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                      </svg>
+                      <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                      <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>React</title>
+                        <path
+                          d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" />
+                      </svg>
+                      <span>React</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
-  </section>
+    </section>
+
+
+    <!-- Projects Section -->
+
+    <!-- TODO: My projects are what shows off my skills, less talking about skills and more showing off your projects thats what really shows ur skills off! Have svg, icons for what technologies my projects used? -->
+
+    <section id="projects" class="main style3 primary">
+      <div class="content box style2">
+        <header>
+          <h2>My Projects</h2>
+        </header>
+        <p>Explore my projects showcasing full-stack development.<br>
+          Visit my <a target="_blank" href="https://www.github.com/dogpls">Github</a> to see what I'm currently
+          working
+          on!</p>
+
+        <div class="gallery">
+
+          <article class="from-left">
+            <a href="https://github.com/dogpls/NZ" target="_blank" rel="noreferrer" class="project-card">
+              <img src="images/LawSite.webp" width="250" height="200" alt="Zand law website project">
+              <h3>Sole Practitioner Project</h3>
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>HTML5</title>
+                <path
+                  d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+              </svg><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>CSS</title>
+                <path
+                  d="M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63" />
+              </svg><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>JavaScript</title>
+                <path
+                  d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+              </svg>
+              <p></p>
+
+              <span class="btn"><b>View Project</b></span>
+            </a>
+          </article>
+
+          <article class="from-right">
+            <a href="https://github.com/dogpls/portfolio" target="_blank" rel="noreferrer" class="project-card">
+              <img src="images/MyPortfoilo.jpg" width="250" height="200" alt="My portfolio website project">
+
+              <h3>Portfolio Project</h3>
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>HTML5</title>
+                <path
+                  d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+              </svg><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>CSS</title>
+                <path
+                  d="M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63" />
+              </svg><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>JavaScript</title>
+                <path
+                  d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+              </svg>
+              <p></p>
+              <p></p>
+              <span class="btn"><b>View Project</b></span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- HOMELAB SECTION -->
+    <!-- TODO: Build a simple homelab page popup page with a homelab chart that shows it off  - Since I waste most of my time playing with my homelab I should have a sweet section for it. -->
+
+    <section id="homelab" class="main style2 right dark fullscreen">
+
+      <div class="content box style2">
+
+        <section>
+
+          <header>
+            <h2>Homelab Infrastructure</h2>
+          </header>
+
+          <p>My homelab is designed for efficiency, security, and media management. It features a robust setup that
+            ensures seamless operation and data integrity.</p>
+
+          <div class="homelab-grid">
+
+            <div class="homelab-item"> <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Proxmox</title>
+                <path
+                  d="M4.928 1.825c-1.09.553-1.09.64-.07 1.78 5.655 6.295 7.004 7.782 7.107 7.782.139.017 7.971-8.542 8.058-8.801.034-.07-.208-.312-.519-.536-.415-.312-.864-.433-1.712-.467-1.59-.104-2.144.242-4.115 2.455-.899 1.003-1.66 1.833-1.66 1.833-.017 0-.76-.813-1.642-1.798S8.473 2.1 8.127 1.91c-.796-.45-2.421-.484-3.2-.086zM1.297 4.367C.45 4.695 0 5.007 0 5.248c0 .121 1.331 1.678 2.94 3.459 1.625 1.78 2.939 3.268 2.939 3.302 0 .035-1.331 1.522-2.94 3.303C1.314 17.11.017 18.683.035 18.822c.086.467 1.504 1.055 2.541 1.055 1.678-.018 2.058-.312 5.603-4.202 1.78-1.954 3.233-3.614 3.233-3.666 0-.069-1.435-1.694-3.199-3.63-2.3-2.508-3.423-3.632-3.96-3.874-.812-.398-2.126-.467-2.956-.138zm18.467.12c-.502.26-1.764 1.505-3.943 3.891-1.763 1.937-3.199 3.562-3.199 3.631 0 .07 1.453 1.712 3.234 3.666 3.544 3.89 3.925 4.184 5.602 4.202 1.038 0 2.455-.588 2.542-1.055.017-.156-1.28-1.712-2.905-3.493-1.608-1.78-2.94-3.285-2.94-3.32 0-.034 1.332-1.539 2.94-3.32C22.72 6.91 24.017 5.352 24 5.214c-.087-.45-1.366-.968-2.473-1.038-.795-.034-1.21.035-1.763.312zM7.954 16.973c-2.144 2.369-3.908 4.374-3.943 4.46-.034.07.208.312.52.537.414.311.864.432 1.711.467 1.574.103 2.161-.26 4.15-2.508.864-.968 1.608-1.78 1.625-1.78s.761.812 1.643 1.798c2.023 2.248 2.559 2.576 4.132 2.49.848-.035 1.297-.156 1.712-.467.311-.225.553-.467.519-.536-.087-.26-7.92-8.819-8.058-8.801-.069 0-1.867 1.954-4.011 4.34z" />
+              </svg>
+              <h3>Proxmox Server</h3>
+
+              <p>Virtualization powerhouse running multiple VMs and containers for various services.</p>
+            </div>
+
+            <div class="homelab-item"> <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>WireGuard</title>
+                <path
+                  d="M23.98 11.645S24.533 0 11.735 0C.418 0 .064 11.17.064 11.17S-1.6 24 11.997 24C25.04 24 23.98 11.645 23.98 11.645zM8.155 7.576c2.4-1.47 5.469-.571 6.618 1.638.218.419.246 1.063.108 1.503-.477 1.516-1.601 2.366-3.145 2.728.455-.39.817-.832.933-1.442a2.112 2.112 0 0 0-.364-1.677 2.14 2.14 0 0 0-2.465-.75c-.95.36-1.47 1.228-1.377 2.294.087.99.839 1.632 2.245 1.876-.21.111-.372.193-.53.281a5.113 5.113 0 0 0-1.644 1.43c-.143.192-.24.208-.458.075-2.827-1.729-3.009-6.067.078-7.956zM6.04 18.258c-.455.116-.895.286-1.359.438.227-1.532 2.021-2.943 3.539-2.782a3.91 3.91 0 0 0-.74 2.072c-.504.093-.98.155-1.44.272zM15.703 3.3c.448.017.898.01 1.347.02a2.324 2.324 0 0 1 .334.047 3.249 3.249 0 0 1-.34.434c-.16.15-.341.296-.573.069-.055-.055-.187-.042-.283-.044-.447-.005-.894-.02-1.34-.003a8.323 8.323 0 0 0-1.154.118c-.072.013-.178.25-.146.338.078.207.191.435.359.567.619.49 1.277.928 1.9 1.413.604.472 1.167.99 1.51 1.7.446.928.46 1.9.267 2.877-.322 1.63-1.147 2.98-2.483 3.962-.538.395-1.205.62-1.821.903-.543.25-1.1.465-1.644.712-.98.446-1.53 1.51-1.369 2.615.149 1.015 1.04 1.862 2.059 2.037 1.223.21 2.486-.586 2.785-1.83.336-1.397-.423-2.646-1.845-3.024l-.256-.066c.38-.17.708-.291 1.012-.458q.793-.437 1.558-.925c.15-.096.231-.096.36.014.977.846 1.56 1.898 1.724 3.187.27 2.135-.74 4.096-2.646 5.101-2.948 1.555-6.557-.215-7.208-3.484-.558-2.8 1.418-5.34 3.797-5.83 1.023-.211 1.958-.637 2.685-1.425.47-.508.697-.944.775-1.141a3.165 3.165 0 0 0 .217-1.158 2.71 2.71 0 0 0-.237-.992c-.248-.566-1.2-1.466-1.435-1.656l-2.24-1.754c-.079-.065-.168-.06-.36-.047-.23.016-.815.048-1.067-.018.204-.155.76-.38 1-.56-.726-.49-1.554-.314-2.315-.46.176-.328 1.046-.831 1.541-.888a7.323 7.323 0 0 0-.135-.822c-.03-.111-.154-.22-.263-.283-.262-.154-.541-.281-.843-.434a1.755 1.755 0 0 1 .906-.28 3.385 3.385 0 0 1 .908.088c.54.123.97.042 1.399-.324-.338-.136-.676-.26-1.003-.407a9.843 9.843 0 0 1-.942-.493c.85.118 1.671.437 2.54.32l.022-.118-2.018-.47c1.203-.11 2.323-.128 3.384.388.299.146.61.266.897.432.14.08.233.24.348.365.09.098.164.23.276.29.424.225.89.234 1.366.223l.01-.16c.479.15 1.017.702 1.017 1.105-.776 0-1.55-.003-2.325.004-.083 0-.165.061-.247.094.078.046.155.128.235.131z M14.703 2.153a.118.118 0 0 0-.016.19.179.179 0 0 0 .246.065c.075-.038.148-.078.238-.125-.072-.062-.13-.114-.19-.163-.106-.087-.193-.032-.278.033z" />
+              </svg>
+              <h3>WireGuard Firewall</h3>
+
+              <p>Secure VPN tunneling for remote access and network protection.</p>
+            </div>
+            <div class="homelab-item">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Frigate</title>
+                <path
+                  d="M20.892.036c-.066.078-4.134 1.356-5.313 1.679-1.089.3-4.201 1.49-4.646 1.778-.144.1-.255.267-.255.378s.278.622.611 1.134c.756 1.156.778 1.434.211 2.767-.556 1.29-.9 1.7-1.8 2.123-.412.19-.867.467-1.023.6-.156.134-.556.356-.89.478-.333.123-.622.3-.644.39-.033.144.022.144.4.022.6-.212.912-.112.912.289 0 .355-.445.666-1.623 1.156-2.823 1.144-3.646 1.511-4.024 1.822-.578.445-.655.856-.355 1.79.122.378.222.811.222.945 0 .233.589 1.923 1.5 4.323.367.956 1.123 2.279 1.312 2.29.056 0 .067-.256.022-.567-.066-.5-.166-3.245-.189-5.602-.022-1.2.223-1.767 1.112-2.634.844-.834 2.123-1.712 3.256-2.256.756-.356.834-.378 1.701-.312.934.067 2.479-.144 3.323-.444.3-.111.578-.122.89-.067.6.111 4.412.122 4.412.011 0-.044-.356-.144-.789-.21-1.167-.179-1.19-.334-.056-.423 1.845-.156.834-.39-1.69-.39-1.655 0-1.978-.088-2.567-.7-.578-.61-.855-2.211-.555-3.19.066-.21.155-1.111.21-2 .045-.89.123-1.7.168-1.812.1-.256 1.344-.978 2.512-1.456.51-.211 1.333-.556 1.822-.767.778-.333 1.845-.789 2.557-1.078.167-.078.122-.1-.234-.1-.244-.011-.478.011-.5.033" />
+              </svg>
+              <h3>8-Channel Security System</h3>
+              <p>Surveillance setup ensuring real-time monitoring and security.</p>
+            </div>
+            <div class="homelab-item">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>TrueNAS</title>
+                <path
+                  d="M24 10.049v5.114l-10.949 6.324v-5.114L24 10.049zm-24 0v5.114l10.956 6.324v-5.114L0 10.049zm12.004-.605l-4.433 2.559 4.433 2.559 4.429-2.559-4.429-2.559zm10.952-1.207l-9.905-5.723v5.118l5.473 3.164 4.432-2.559zm-12-.605V2.513L1.044 8.236l4.432 2.555 5.48-3.159z" />
+              </svg>
+              <h3>On-Premise Backup</h3>
+              <p>Redundant storage solution for data integrity and disaster recovery</p>
+            </div>
+
+          </div>
+
+
+          <!-- FUTURE ADD HOMELAB DIAGRAM POPUP
+          <button class="btn">View HomeLab Diagram</button>
+
+-->
+
+      </div>
+    </section>
   </div>
 
 
-<section class="contact-section" id="contact">
-  <div class="contact-container">
+  <!-- CONTACT SECTION -->
 
-    <div class="contact-heading">
-      <span class="section-label">
-        <span class="status-dot"></span>
-        CONTACT
-      </span>
+  <section class="contact-section" id="contact">
+    <div class="boxstyle2 contact-container">
 
-      <p class="contact-description">
-        Have a project or idea? Or just want to talk tech? My inbox is open.
-      </p>
-    </div>
-
-    <div class="contact-links">
-
-      <a
-        class="contact-card"
-        href="mailto:anthony@anthonygomez.net"
-        aria-label="Send me an email"
-      >
-        <span class="contact-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <rect x="3" y="5" width="18" height="14" rx="2"/>
-            <path d="m3 7 9 6 9-6"/>
-          </svg>
+      <div class="contact-heading">
+        <span class="section-label">
+          <span class="status-dot"></span>
+          CONTACT
         </span>
 
-        <span class="contact-info">
-          <span class="contact-title">Email</span>
-          <span class="contact-subtitle">
-            anthony@anthonygomez.net
+        <p class="contact-description">
+          Have a project or idea? Or just want to talk tech? My inbox is open.
+        </p>
+      </div>
+
+      <div class="contact-links">
+
+        <a class="contact-card" href="mailto:anthony@anthonygomez.net" target="_blank" aria-label="Send me an email">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="m3 7 9 6 9-6" />
+            </svg>
           </span>
-        </span>
-        <span class="contact-arrow" aria-hidden="true">↗</span>
-      </a>
 
-      <a
-        class="contact-card"
-        href="https://github.com/dogpls"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Visit my GitHub profile"
-      >
-        <span class="contact-icon github-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9
+          <span class="contact-info">
+            <span class="contact-title">Email</span>
+            <span class="contact-subtitle">
+              anthony@anthonygomez.net
+            </span>
+          </span>
+          <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="contact-card" href="https://github.com/dogpls" target="_blank" rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile">
+          <span class="contact-icon github-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9
             c0-1.1.1-1.6-.5-2.2
             3.3-.4 6.8-1.6 6.8-7.2
             0-1.6-.6-2.9-1.6-3.9
@@ -298,38 +407,45 @@
             2.6 2.9 3.1 4.4 3.3 4.8
             2.3 5.8 1.7 7.1 1.7 8.7
             c0 5.6 3.5 6.8 6.8 7.2
-            -.5.5-.6 1-.6 2.1V22"/>
-          </svg>
+            -.5.5-.6 1-.6 2.1V22" />
+            </svg>
+          </span>
+          <span class="contact-info">
+            <span class="contact-title">GitHub</span>
+            <span class="contact-subtitle">@dogpls</span>
+          </span>
+          <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+        </a>
+      </div>
+
+
+      <footer class="contact-footer">
+        <span>&copy; 2026 &#183; ANTHONY GOMEZ</span>
+        <span class="availability">
+          <span class="status-dot"></span>
+          Open to opportunities
         </span>
-        <span class="contact-info">
-          <span class="contact-title">GitHub</span>
-          <span class="contact-subtitle">@dogpls</span>
-        </span>
-        <span class="contact-arrow" aria-hidden="true">↗</span>
-      </a>
-      </a>
+      </footer>
     </div>
+    </div>
+  </section>
 
-    <footer class="contact-footer">
-      <span>&copy; 2026 · ANTHONY GOMEZ</span>
-      <span class="availability">
-        <span class="status-dot"></span>
-        Open to opportunities
-      </span>
-    </footer>
 
-  </div>
-</section>
+  <a class="back-to-top" href="#top" aria-label="Back to top" title="Back to top">↑</a>
+
 
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/jquery.poptrox.min.js" defer></script>
   <script src="assets/js/jquery.scrolly.min.js" defer></script>
   <script src="assets/js/jquery.scrollex.min.js" defer></script>
+  <script src="assets/js/breakpoints.min.js" defer></script>
   <script src="assets/js/browser.min.js" defer></script>
-  <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js" defer></script>
   <script src="assets/js/main.js" defer></script>
   <script src="script.js" defer></script>
+
 </body>
+
 </html>
