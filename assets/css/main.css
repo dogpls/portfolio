@@ -782,7 +782,7 @@ footer {
   padding: 1rem;
   margin: 5px;
   border-radius: 8px;
-  border: 1px dashed orangered;
+  border: 4px outset #f86f3998;
   transition:
     transform 0.1s ease,
     box-shadow 0.1s ease;
