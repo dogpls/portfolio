@@ -43,10 +43,6 @@ ul {
   list-style: none;
 }
 
-body {
-  -webkit-text-size-adjust: none;
-}
-
 html {
   height: 100%;
 }
