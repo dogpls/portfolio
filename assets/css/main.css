@@ -169,8 +169,6 @@ body {
 }
 
 body:before {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -341,9 +339,10 @@ h3 {
   }
 }
 
-.font-techstack {
-  color: #fdcea7;
-  margin-bottom: 10%;
+@media screen and (max-width: 736px) {
+  .font-techstack {
+    font-size: clamp(32px, 4vw, 46px);
+  }
 }
 
 strong,
@@ -597,14 +596,13 @@ footer {
   margin-top: 2em;
 }
 
-/* PROJECTS project-gallery */
+/* Projects gallery */
 
-.project-gallery {
+.gallery {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -614,35 +612,33 @@ footer {
   border-radius: 12px;
 }
 
-.project-gallery article {
+.gallery article {
   width: 50%;
   position: relative;
   opacity: 1;
 }
 
-.project-gallery article .image {
+.gallery article .image {
   margin: 0;
   display: block;
 }
 
 @media screen and (max-width: 480px) {
-  .project-gallery {
-    -moz-flex-wrap: nowrap;
+  .gallery {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -moz-flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
 
-  .project-gallery article {
+  .gallery article {
     width: 100%;
   }
 }
 
-.project-gallery svg {
+.gallery svg {
   display: inline-block;
   align-items: center;
   gap: 0px;
@@ -700,11 +696,9 @@ footer {
 }
 
 .main.style1 {
-  -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
@@ -735,11 +729,9 @@ footer {
 }
 
 .main.style2 {
-  -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
@@ -763,7 +755,6 @@ footer {
 
 .main.style2.left,
 .main.style2.right {
-  -moz-justify-content: -moz-flex-center;
   -webkit-justify-content: -webkit-flex-center;
   -ms-justify-content: -ms-flex-center;
   justify-content: flex-center;
@@ -800,10 +791,6 @@ footer {
 
 .main.dark .button.style2:active {
   background-color: rgba(255, 255, 255, 0.25);
-}
-
-.main.dark .button.style2.down {
-  background-image: url("images/dark-arrow.svg");
 }
 
 body.is-touch .main {
@@ -1580,7 +1567,7 @@ html::-webkit-scrollbar-thumb {
 
 /*
 
-Button Design
+Button Designs
 
 */
 
@@ -1599,10 +1586,10 @@ Button Design
   border: 1px solid #30363d;
   border-radius: 11px;
   background: #0d1117;
-  color: #7ee787;
+  color: #00ff66;
   font-family: "SF Mono", "Fira Code", Consolas, monospace;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
   transition: border-color 0.2s ease;
@@ -1617,7 +1604,7 @@ Button Design
   animation: btn-blink-cursor-blink 1.1s steps(2, start) infinite;
 }
 .btn-blink-cursor:hover {
-  border-color: #7ee787;
+  border-color: #00ff66;
   cursor: auto;
 }
 @keyframes btn-blink-cursor-blink {
@@ -1660,7 +1647,7 @@ Button Design
   background-position:
     0 calc(100% + 16px),
     left bottom;
-  color: #ea965e;
+  color: #00ff66;
   font-family: inherit;
   font-size: 18px;
   font-weight: 600;
